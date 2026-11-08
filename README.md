@@ -62,7 +62,7 @@ The project uses a feedforward neural network built with PyTorch.
 | Input layer | Number of input features | — |
 | Hidden layer 1 | 12 | ReLU |
 | Hidden layer 2 | 6 | ReLU |
-| Output layer | 3 | None |
+| Output layer | 3 | linear activation |
 
 The output layer contains three neurons, representing the three possible customer potential classes.
 
